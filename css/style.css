@@ -1,0 +1,115 @@
+.button.deactive {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.button.hihyouzi {
+    display: none;
+}
+
+.title_box{
+    width: 888px;
+    height: 500px;
+    background:url(../img/top2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.rule{
+    justify-content: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.zibun{
+    width: 300px;
+    padding-left: 48px;
+    border: solid;
+    margin-right: 100px;
+    background: #FFF;
+    flex-direction: column;
+
+}
+
+.meter{
+    display: flex;
+  justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.gazou img{
+    width: 200px;
+    height: 100%;}
+
+.gazouohaziki{
+    width: 100px;
+    height: 100%;
+    padding-right: 20px;
+}
+
+.gazouohaziki img{
+    width: 100px;
+    height: 100%;
+    padding-right: 20px;
+}
+
+.aite{
+    width: 300px;
+    padding-left: 56px;
+    border: solid;
+    background: #FFF;
+
+}
+
+.button_t {
+  display: inline-block;
+  border-style: solid;
+  color: black;
+  background-color: rgb(225, 224, 224);
+  border-width:1px;
+  border-color: darkgray;
+  text-decoration: none;
+}
+
+.blink {
+	-webkit-animation: blink 1s ease infinite;
+	animation: blink 1s ease infinite;
+}
+@-webkit-keyframes blink {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes blink {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.rulesotowaku{
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.rulesetumei{
+    font-size: 20px;
+    border: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #e5e5e5;
+}
+
+#ohazikinumber{
+    width: 100px;
+    height: 30px;
+}
+
+.center {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

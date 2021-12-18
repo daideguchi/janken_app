@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- CSS only -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <p>nk href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+  <meta name="theme-color" content="#fafafa">
+  <script src="app.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <main>
+
+
+    <!-- <section>
+<div class="title_box"></div>
+</section> -->
+
+    <!-- <frameset cols="50,*"> (*1)画面を左右に分割
+    <frameset rows="*,*" frame="0"> (*2)左のフレームを上下に分割
+      <frame name="F1" src="5_frm_B.html"> 左上のフレーム
+        <frame name="F2" src="5_frm_R.html"> 左下のフレーム
+    </frameset>
+    <frame src="index.html"> 右のフレーム（このページ）
+  </frameset> -->
+
+    <section>
+      <div>
+        <h1>ゲームスタート</h1>
+      </div>
+    </section>
+    <div class="meter">
+      <!-- 自分の画像 -->
+      <div class="gazou">
+        <img src="img/自分.png" alt="自分の画像">
+      </div>
+      <div class="zibun">
+        <div>
+          <section class="player">
+            <h2 id="playerName"></h2>
+          </section>
+        </div>
+        <div class="hp">
+          <div id="currentPlayerHp"></div>
+          <div id="maxPlayerHp"></div>
+          <div class="gazouohaziki">
+            <img src="img/おはじき画像.png" alt="おはじきの画像">
+          </div>
+        </div>
+      </div>
+
+      <div class="aite">
+        <div>
+          <section class="enemy">
+            <h2 id="enemyName"></h2>
+        </div>
+        <div class="hp">
+          <div id="currentEnemyHp"></div>
+          <div id="maxEnemyHp"></div>
+          <div class="gazouohaziki">
+            <img src="img/おはじき画像.png" alt="おはじきの画像">
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- 相手の画像 -->
+      <div class="gazou">
+        <img src="img/相手.png" alt="相手の画像">
+      </div>
+    </div>
+    <br>
+
+    <div class="center">
+      <div class="center">
+        <p>賭けるおはじきの数</p>
+      </div>
+      <div>
+        <input type="number" id="ohazikinumber"
+        value="1" max="19">
+      </div>
+    </div>
+    <section>
+      <p>相手のおはじきは「偶数」「奇数」どっち？</p>
+      <button id="button_guu" class="button">偶数で勝負！</button>
+      <button id="button_ki" class="button">奇数で勝負！</button>
+    </section>
+    <section>
+      <br>
+      <!-- <p>いくつ賭ける？</p>
+      <p>自分の持っている数だけ賭けられます</p>
+      <button id="button1" class="button">１個</button>
+      <button id="button2" class="button">２個</button>
+      <button id="button3" class="button">３個</button>
+      <button id="button4" class="button">４個</button>
+      <button id="button5" class="button">５個</button>
+      <button id="button6" class="button">６個</button>
+      <button id="button7" class="button">７個</button>
+      <button id="button8" class="button">８個</button>
+      <button id="button9" class="button">９個</button>
+      <button id="button10" class="button">10個</button>
+      <button id="button11" class="button">11個</button>
+      <button id="button12" class="button">12個</button>
+      <button id="button13" class="button">13個</button>
+      <button id="button14" class="button">14個</button>
+      <button id="button15" class="button">15個</button>
+      <button id="button16" class="button">16個</button>
+      <button id="button17" class="button">17個</button>
+      <button id="button18" class="button">18個</button>
+      <button id="button19" class="button">19個</button> -->
+
+
+
+    </section>
+
+    <section>
+      <div id="aite"></div>
+      <div id="syouhai"></div>
+    </section>
+
+
+
+
+    <!-- https://gamaverse.com/c/f/g/squid-game-2d/index.html -->
+
+
+    <!-- <div id="shopinfo">
+      リストランテ南青山
+    </div>
+
+    <p>美味しかったです。</p>
+
+    <button onClick="setTextToElement();">新しいテキストを設定</button> -->
+
+    <script>
+      function setTextToElement() {
+        let element = document.getElementById('shopinfo');
+        element.innerText = '南青山の洋食屋さん';
+      }
+    </script>
+
+
+  </main>
+
+
+
+  <a class="button_t" href="index.html">TOPへ戻る（リセット）</a>
+
+</body>
+
+</html>

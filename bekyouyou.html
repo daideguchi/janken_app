@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <meta http-equiv="content-script-type" content="text/javascript">
+    <!-- 「blackjack.js」を外部ファイルとして読み込む -->
+    <script type="text/javascript" src="blackjack.js"></script>
+</head>
+
+<body>
+
+    <!-- ブラックジャック書き出し用の要素 -->
+    <p id="bj">
+        JavaScriptがOFFになっているか、ブラウザが対応していません。
+    </p>
+
+    <!-- ブラックジャックのセット -->
+    <script type="text/javascript">
+            blackJack = new Array();
+        blackJack['bj'] = new BlackJack('bj');
+
+    </script>
+
+</body>
+
+</html>
+
