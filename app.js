@@ -78,7 +78,7 @@ function firstscript() {
 
 //1分タイマーをセット
 let timer_ID;                               //【タイマーID】
-let time = 1;                              // timeの初期化
+let time = 120;                              // timeの初期化
 
 function minusTime() {
     time--;                                 // timeの更新
