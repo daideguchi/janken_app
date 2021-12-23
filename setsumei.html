@@ -16,10 +16,10 @@
     
     <div class="rulesotowaku">
         <div class="rule">
-            <h1>ルールの説明</h1>
-            <h1>
+            <h2>ルールの説明</h2>
+            <h2>
                 このゲームは韓国ドラマ「イカゲーム」で登場したゲームを再現したものです。
-            </h1>
+            </h2>
         </div>
         <div>
             <br>
@@ -27,9 +27,9 @@
 
             <div class="rulesetumei">
                 <p> ①おはじきを何個賭けるか決めます。</p>
-                <p> ②相手の手の中に、おはじきが「偶数」か「奇数」を予想します。</p>
+                <p> ②相手の手は、「偶数」か「奇数」を予想します。</p>
                 <p> ③予想が当たれば、賭けた数のおはじきを相手から貰えるが、外れれば相手に賭けたおはじきを渡します。</p>
-                <p> ④先に全部のおはじきを奪った方の勝ち</p>
+                <p> ④交互に予想しあい、先に全部のおはじきを奪った方の勝ち</p>
             </div>
 
 
@@ -38,7 +38,7 @@
 
         <br>
         <div>
-            <h1 class="blink">Enterキークリックでゲームスタート！！</h1>
+            <h2 class="blink">Enterキークリックで先行後攻ルーレット！！</h2>
         </div>
     </div>
     <br>
@@ -48,7 +48,7 @@
     <a id="exe_botan"></a>
 
     <script>
-        var btn = document.getElementById('exe_botan');
+        let btn = document.getElementById('exe_botan');
         // Enterキー押下時、送信処理が実行する
         window.document.onkeydown = function (event) {
             if (event.key === 'Enter') {

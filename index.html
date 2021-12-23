@@ -10,34 +10,42 @@
 </head>
 
 <body>
+
+
+    <!-- <audio autoplay>
+        <source src="top.mp3">
+        <source src="top.wav">
+
+    </audio> -->
+
     <form method="POST" name="form1">
 
         <img id="pic" src="img/top2.jpg" width="100%" height="100%">
 
     </form>
 
-<script>
+    <script>
 
-    'use strict';
+        'use strict';
 
-    const img = ["img/top2.jpg", "img/top1.jpg"];
+        const img = ["img/top2.jpg", "img/top1.jpg"];
 
-    let count = 1;
+        let count = 1;
 
-    picChange();
+        picChange();
 
-    function picChange() {
+        function picChange() {
 
-        count++;
-        // カウントが最大になれば初期値に戻す
-        if (count == img.length) count = 0;
-        //画像選択
-        pic.src = img[count];
-        //1秒ごとに実行
-        setTimeout("picChange()", 500);
-    }
+            count++;
+            // カウントが最大になれば初期値に戻す
+            if (count == img.length) count = 0;
+            //画像選択
+            pic.src = img[count];
+            //1秒ごとに実行
+            setTimeout("picChange()", 500);
+        }
 
-</script>
+    </script>
 
 
 
